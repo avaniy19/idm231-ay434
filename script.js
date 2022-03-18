@@ -84,32 +84,32 @@ function getFoodInfo (food){
         description = "Orange Chicken Description!";
     
     } else if (food == "Guacamole to Go"){
-        document.getElementById("picture").src="pictures/emojis/gude.png"
+        document.getElementById("picture").src="pictures/guac.png"
         audio = new Audio('sounds/');
         description= "Guac Description";
    
     } else if (food == "Everything but the Bagel Seasoning"){
-        document.getElementById("picture").src="pictures/emojis/twin.png"
+        document.getElementById("picture").src="pictures/bagel.png"
         audio = new Audio('sounds/');
         description= "Bagel Seasoning Description";
     
     } else if (food == "Chili Lime Rolled Tortilla Chips"){
-        document.getElementById("picture").src="pictures/emojis/melody.png"
+        document.getElementById("picture").src="pictures/chips.png"
         audio = new Audio('sounds/');
         description= "Chips Description";
     
     } else if (food == "Spiced Chai Concentrate"){
-        document.getElementById("picture").src="pictures/pochacco.webp"
+        document.getElementById("picture").src="pictures/chai.png"
         audio = new Audio('sounds/');
         description= "Chai Description";
     
     } else if (food == "Lemon Bars"){
-        document.getElementById("picture").src="pictures/emojis/bad.png"
+        document.getElementById("picture").src="pictures/lemon.png"
         audio = new Audio('sounds/');
         description= "Lemon Bars Description";
     
     } else if (food == "Speculoos Cookie Butter"){
-        document.getElementById("picture").src="pictures/purin.png"
+        document.getElementById("picture").src="pictures/butter.png"
         audio = new Audio('sounds/');
         description= "Cookie Butter Description";
     
