@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trader Joes Zodiac Generator</title>
+    <link rel= "stylesheet" href="styles.css"/>
+    <link rel= "normalize" href="normalize.css"/>
+</head>
+<body>
+  
+    <main>
+        <div class="intro">
+            <h1>Which Trader Joes item are you?</h1>
+            <div class="instructions">
+            <p>Have you ever wondered which Trader Joes Item you are based on your zodiac?<br>Fill in your name and date of birth to find out!</p>
+        </div>
+
+        </div>
+        <div class="form">
+            <form action="">
+                <div class= "birthday__label">
+                <label for="date">Birthday :</label>
+                </div>
+
+                <input id="date" class="date-input" type="date" max="2022">
+                <br>
+                <br>
+                <button class="submit-button">Submit</button>
+            </form>
+        </div>
+        <div class="hide" style="display: none">
+            <div class="result">
+                <div><img id="picture" src="pictures/question.png"></div>
+            <p>You are <span class="result-container"></span>! <span class="description-container"></span></p>
+            </div>
+        </div>
+        
+        <div class="clickableItems">
+            <img src="pictures/bagel.png" class="placeholder" id="Everything but the Bagel Seasoning">
+            <img src="stars.png" class="placeholder" id="Dark Chocolate Stars">
+        
+        </div>
+            
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'trader_joe';
+    src: url(fonts/TraderJoes-JYrx.otf);
+}
+
+body {
+    background-color: #E0D8CD;
+    color: #4F2A1E;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5rem;
+    text-align: center;
+    font-family: 'trader_joe', sans-serif;
+}
+
+.instructions {
+    font-family: Helvetica, sans-serif;
+    color: #B8451A;
+}
+
+.name__label, .birthday__label {
+    color: #901D2C;
+}
+
+.result {
+    padding:2rem;
+}
+
+.result p {
+    padding: 2rem;
+}
+
+.result img {
+    width: 150px;
+}
