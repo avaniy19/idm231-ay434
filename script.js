@@ -74,7 +74,7 @@ function getFoodInfo (food){
         description= "Baton Description";
     
     } else if (food == "Mini Ice Cream Cones"){
-        document.getElementById("picture").src="pictures/pizza.png"
+        document.getElementById("picture").src="pictures/cone.png"
         audio = new Audio('sounds/');
         description= "Ice Cream Description";
    
@@ -128,3 +128,4 @@ function showResult (){
     audio.play();
 }
    
+
