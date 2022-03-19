@@ -26,11 +26,13 @@ body {
 
 .result {
     margin-top: -0.5rem;
-    padding:2rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
 }
 
 .result p {
-    padding: 0rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
 }
 
 .result img {
@@ -79,7 +81,7 @@ body {
 .slider {
     /*min-height: 100vh;*/
     height: 150px;
-    margin:auto;
+    margin: left 100px;;
     position: relative;
     width: 90%;
     display: grid;
@@ -89,9 +91,9 @@ body {
 
 .slide_track {
     display: flex;
-    width: calc(250px * 24);
-    animation: scroll 50s linear infinite;
-    transition-timing-function: ease-in-out;
+    width: calc(250px * 18);
+    animation: scroll 15s linear infinite;
+
 
 }
 
@@ -103,8 +105,17 @@ body {
     0%{
         transform: translateX(0);
     }
+    25%{
+        transform: translateX(calc(-30px * 12));
+    }
+    50%{
+        transform: translateX(calc(10px * 12));
+    }
+    75%{
+        transform: translateX(calc(-30px * 12));
+    }
     100%{
-        transform: translateX(calc(-250px * 12));
+        transform: translateX(calc(10px * 12));
     }
 }
 
